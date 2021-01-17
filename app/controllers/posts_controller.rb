@@ -17,7 +17,8 @@ class PostsController < ApplicationController
     end
 
     item = Post.find(params[:id])
-    render json: { post: item }
+     render json: { post: item }　
+     #item でもいけそう
   end
 end
 
